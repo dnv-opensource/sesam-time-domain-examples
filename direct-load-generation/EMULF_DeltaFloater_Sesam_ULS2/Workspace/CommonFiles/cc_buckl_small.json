@@ -1,0 +1,1828 @@
+{
+    "Header": {
+        "TimeStamp": "09-May-2025 - 16:51:53",
+        "Program": "GeniE - V8.12-03",
+        "Workspace": "import_Stru_Fine_v04_T3"
+    },
+    "EngineeringLimitsTolerances": {
+        "Tolerance": 0.001,
+        "Beta": 45.0,
+        "BetaWarning": 5.0
+    },
+    "BucklingModels": [
+        {
+            "Id": 1,
+            "Name": "panel(Pl191, 4)_to_(Pl191, 1)",
+            "Type": 1,
+            "Plates": [
+                {
+                    "Id": 0,
+                    "Name": "Plate(Pl191, 4)",
+                    "Type": 0,
+                    "PDir": 0.0,
+                    "Material": {
+                        "E": 210000003072.0,
+                        "G": 80769231210.1198,
+                        "fy": 355000000.0,
+                        "GammaM": 1.15,
+                        "PoissonRatio": 0.30000001192092896
+                    },
+                    "Geometry": {
+                        "Thickness": 0.01600000075995922,
+                        "Length": 3.999999999999999,
+                        "Width": 1.7499999999999998
+                    },
+                    "FiniteElements": [
+                        23350,
+                        23351,
+                        23352,
+                        23353,
+                        27384,
+                        27385,
+                        27386,
+                        27387
+                    ]
+                },
+                {
+                    "Id": 1,
+                    "Name": "Plate(Pl191, 3)",
+                    "Type": 0,
+                    "PDir": 0.0,
+                    "Material": {
+                        "E": 210000003072.0,
+                        "G": 80769231210.1198,
+                        "fy": 355000000.0,
+                        "GammaM": 1.15,
+                        "PoissonRatio": 0.30000001192092896
+                    },
+                    "Geometry": {
+                        "Thickness": 0.01600000075995922,
+                        "Length": 3.999999999999999,
+                        "Width": 1.7499999634294454
+                    },
+                    "FiniteElements": [
+                        23346,
+                        23347,
+                        23348,
+                        23349,
+                        27380,
+                        27381,
+                        27382,
+                        27383
+                    ]
+                },
+                {
+                    "Id": 2,
+                    "Name": "Plate(Pl191, 2)",
+                    "Type": 0,
+                    "PDir": 0.0,
+                    "Material": {
+                        "E": 210000003072.0,
+                        "G": 80769231210.1198,
+                        "fy": 355000000.0,
+                        "GammaM": 1.15,
+                        "PoissonRatio": 0.30000001192092896
+                    },
+                    "Geometry": {
+                        "Thickness": 0.01600000075995922,
+                        "Length": 3.999999999999999,
+                        "Width": 1.7500000365705546
+                    },
+                    "FiniteElements": [
+                        23342,
+                        23343,
+                        23344,
+                        23345,
+                        27376,
+                        27377,
+                        27378,
+                        27379
+                    ]
+                },
+                {
+                    "Id": 3,
+                    "Name": "Plate(Pl191, 1)",
+                    "Type": 0,
+                    "PDir": 0.0,
+                    "Material": {
+                        "E": 210000003072.0,
+                        "G": 80769231210.1198,
+                        "fy": 355000000.0,
+                        "GammaM": 1.15,
+                        "PoissonRatio": 0.30000001192092896
+                    },
+                    "Geometry": {
+                        "Thickness": 0.01600000075995922,
+                        "Length": 3.999999999999999,
+                        "Width": 1.7499966621398926
+                    },
+                    "FiniteElements": [
+                        23338,
+                        23339,
+                        23340,
+                        23341,
+                        27372,
+                        27373,
+                        27374,
+                        27375
+                    ]
+                }
+            ],
+            "Stiffeners": [
+                {
+                    "Id": 4,
+                    "Name": "Stiffener(Pl191, 4)",
+                    "Type": 1,
+                    "StiffenerType": 0,
+                    "StiffenerFunction": 0,
+                    "StiffenerConnection": 1,
+                    "SupportAtFirstCrossSection": 0,
+                    "SupportAtSecondCrossSection": 0,
+                    "Material": {
+                        "E": 210000003072.0,
+                        "G": 80769231210.1198,
+                        "fy": 355000000.0,
+                        "GammaM": 1.15,
+                        "PoissonRatio": 0.30000001192092896
+                    },
+                    "StiffenerSections": [
+                        {
+                            "ConnectionNodeId": 2961,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 1,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780498467724328e-12,
+                                        "Z": -0.0
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.211664810776486,
+                                        "Y": -0.028856560228953852,
+                                        "Z": 3.944835083591336e-11
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "ConnectionNodeId": 5844,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 1,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780498467724328e-12,
+                                        "Z": -0.0
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.211664810776486,
+                                        "Y": -0.028856560228953852,
+                                        "Z": 3.944835083591336e-11
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "ConnectionNodeId": 5845,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 1,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780498467724328e-12,
+                                        "Z": -0.0
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.211664810776486,
+                                        "Y": -0.028856560228953852,
+                                        "Z": 3.944835083591336e-11
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "ConnectionNodeId": 5846,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 1,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780498467724328e-12,
+                                        "Z": -0.0
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.211664810776486,
+                                        "Y": -0.028856560228953852,
+                                        "Z": 3.944835083591336e-11
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "ConnectionNodeId": 5847,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 1,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780498467724328e-12,
+                                        "Z": -0.0
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.211664810776486,
+                                        "Y": -0.028856560228953852,
+                                        "Z": 3.944835083591336e-11
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "Sections": [
+                        {
+                            "SectionId": 1,
+                            "SectionName": "BSRAbulb340x14x49x15x15x4_lump3_333",
+                            "SectionType": 7,
+                            "SectionParameters": {
+                                "FilletRadius": 0.0,
+                                "FilletRadiusInner": 0.0,
+                                "FlangeThickness": 0.03681991994380951,
+                                "FlangeThicknessBottom": -1.7976931348623157e+308,
+                                "FlangeThicknessTop": -1.7976931348623157e+308,
+                                "FlangeWidth": 0.20997899770736694,
+                                "FlangeWidthBottom": -1.7976931348623157e+308,
+                                "FlangeWidthBottomOffset": -1.7976931348623157e+308,
+                                "FlangeWidthTop": -1.7976931348623157e+308,
+                                "FlangeWidthTopOffset": -1.7976931348623157e+308,
+                                "Height": 0.3400000035762787,
+                                "OuterDiameter": -1.7976931348623157e+308,
+                                "OuterWebThickness": -1.7976931348623157e+308,
+                                "Thickness": -1.7976931348623157e+308,
+                                "WebSpacing": -1.7976931348623157e+308,
+                                "WebThickness": 0.04666199907660484,
+                                "Width": -1.7976931348623157e+308,
+                                "WebOrientation": 0
+                            },
+                            "SectionGeneral": {
+                                "Comp": 0,
+                                "Area": 0.021878398667969867,
+                                "Ix": 1.3381191161204692e-05,
+                                "Iy": 0.00025371632873104333,
+                                "Iz": 6.430988090768777e-05,
+                                "Iyz": -6.939968448232635e-05,
+                                "Wxmin": 0.0002690988959187691,
+                                "Wymin": 0.0011986703438608796,
+                                "Wzmin": 0.00040756255058291074,
+                                "Shary": 0.005165838601880874,
+                                "Sharz": 0.011326118428701343,
+                                "Shceny": -0.028856560227306996,
+                                "Shcenz": -0.10992523515184227,
+                                "Sy": 0.0010452752345381372,
+                                "Sz": 0.00045837372188802883,
+                                "Wpy": 0.0,
+                                "Wpz": 0.0,
+                                "Fabr": 0
+                            }
+                        }
+                    ],
+                    "FiniteElements": [
+                        5589,
+                        5590,
+                        5591,
+                        5592
+                    ]
+                },
+                {
+                    "Id": 5,
+                    "Name": "Stiffener(Pl191, 3)",
+                    "Type": 1,
+                    "StiffenerType": 0,
+                    "StiffenerFunction": 0,
+                    "StiffenerConnection": 1,
+                    "SupportAtFirstCrossSection": 0,
+                    "SupportAtSecondCrossSection": 0,
+                    "Material": {
+                        "E": 210000003072.0,
+                        "G": 80769231210.1198,
+                        "fy": 355000000.0,
+                        "GammaM": 1.15,
+                        "PoissonRatio": 0.30000001192092896
+                    },
+                    "StiffenerSections": [
+                        {
+                            "ConnectionNodeId": 2980,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 2,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780498467724328e-12,
+                                        "Z": -0.0
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.211664810776486,
+                                        "Y": -0.028856560228953852,
+                                        "Z": 3.944835083591336e-11
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "ConnectionNodeId": 5848,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 2,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780498467724328e-12,
+                                        "Z": -0.0
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.211664810776486,
+                                        "Y": -0.028856560228953852,
+                                        "Z": 3.944835083591336e-11
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "ConnectionNodeId": 5849,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 2,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780498467724328e-12,
+                                        "Z": -0.0
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.211664810776486,
+                                        "Y": -0.028856560228953852,
+                                        "Z": 3.944835083591336e-11
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "ConnectionNodeId": 5850,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 2,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780498467724328e-12,
+                                        "Z": -0.0
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.211664810776486,
+                                        "Y": -0.028856560228953852,
+                                        "Z": 3.944835083591336e-11
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "ConnectionNodeId": 5851,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 2,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780498467724328e-12,
+                                        "Z": -0.0
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.211664810776486,
+                                        "Y": -0.028856560228953852,
+                                        "Z": 3.944835083591336e-11
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "Sections": [
+                        {
+                            "SectionId": 2,
+                            "SectionName": "BSRAbulb340x14x49x15x15x4_lump3_333",
+                            "SectionType": 7,
+                            "SectionParameters": {
+                                "FilletRadius": 0.0,
+                                "FilletRadiusInner": 0.0,
+                                "FlangeThickness": 0.03681991994380951,
+                                "FlangeThicknessBottom": -1.7976931348623157e+308,
+                                "FlangeThicknessTop": -1.7976931348623157e+308,
+                                "FlangeWidth": 0.20997899770736694,
+                                "FlangeWidthBottom": -1.7976931348623157e+308,
+                                "FlangeWidthBottomOffset": -1.7976931348623157e+308,
+                                "FlangeWidthTop": -1.7976931348623157e+308,
+                                "FlangeWidthTopOffset": -1.7976931348623157e+308,
+                                "Height": 0.3400000035762787,
+                                "OuterDiameter": -1.7976931348623157e+308,
+                                "OuterWebThickness": -1.7976931348623157e+308,
+                                "Thickness": -1.7976931348623157e+308,
+                                "WebSpacing": -1.7976931348623157e+308,
+                                "WebThickness": 0.04666199907660484,
+                                "Width": -1.7976931348623157e+308,
+                                "WebOrientation": 0
+                            },
+                            "SectionGeneral": {
+                                "Comp": 0,
+                                "Area": 0.021878398667969867,
+                                "Ix": 1.3381191161204692e-05,
+                                "Iy": 0.00025371632873104333,
+                                "Iz": 6.430988090768777e-05,
+                                "Iyz": -6.939968448232635e-05,
+                                "Wxmin": 0.0002690988959187691,
+                                "Wymin": 0.0011986703438608796,
+                                "Wzmin": 0.00040756255058291074,
+                                "Shary": 0.005165838601880874,
+                                "Sharz": 0.011326118428701343,
+                                "Shceny": -0.028856560227306996,
+                                "Shcenz": -0.10992523515184227,
+                                "Sy": 0.0010452752345381372,
+                                "Sz": 0.00045837372188802883,
+                                "Wpy": 0.0,
+                                "Wpz": 0.0,
+                                "Fabr": 0
+                            }
+                        }
+                    ],
+                    "FiniteElements": [
+                        5593,
+                        5594,
+                        5595,
+                        5596
+                    ]
+                },
+                {
+                    "Id": 6,
+                    "Name": "Stiffener(Pl191, 2)",
+                    "Type": 1,
+                    "StiffenerType": 0,
+                    "StiffenerFunction": 0,
+                    "StiffenerConnection": 1,
+                    "SupportAtFirstCrossSection": 0,
+                    "SupportAtSecondCrossSection": 0,
+                    "Material": {
+                        "E": 210000003072.0,
+                        "G": 80769231210.1198,
+                        "fy": 355000000.0,
+                        "GammaM": 1.15,
+                        "PoissonRatio": 0.30000001192092896
+                    },
+                    "StiffenerSections": [
+                        {
+                            "ConnectionNodeId": 3076,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 3,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780498467724328e-12,
+                                        "Z": -0.0
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.211664810776486,
+                                        "Y": -0.028856560228953852,
+                                        "Z": 3.944835083591336e-11
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "ConnectionNodeId": 5852,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 3,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780498467724328e-12,
+                                        "Z": -0.0
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.211664810776486,
+                                        "Y": -0.028856560228953852,
+                                        "Z": 3.944835083591336e-11
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "ConnectionNodeId": 5853,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 3,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780498467724328e-12,
+                                        "Z": -0.0
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.211664810776486,
+                                        "Y": -0.028856560228953852,
+                                        "Z": 3.944835083591336e-11
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "ConnectionNodeId": 5854,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 3,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780498467724328e-12,
+                                        "Z": -0.0
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.211664810776486,
+                                        "Y": -0.028856560228953852,
+                                        "Z": 3.944835083591336e-11
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "ConnectionNodeId": 5855,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 3,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780498467724328e-12,
+                                        "Z": -0.0
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.211664810776486,
+                                        "Y": -0.028856560228953852,
+                                        "Z": 3.944835083591336e-11
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "Sections": [
+                        {
+                            "SectionId": 3,
+                            "SectionName": "BSRAbulb340x14x49x15x15x4_lump3_333",
+                            "SectionType": 7,
+                            "SectionParameters": {
+                                "FilletRadius": 0.0,
+                                "FilletRadiusInner": 0.0,
+                                "FlangeThickness": 0.03681991994380951,
+                                "FlangeThicknessBottom": -1.7976931348623157e+308,
+                                "FlangeThicknessTop": -1.7976931348623157e+308,
+                                "FlangeWidth": 0.20997899770736694,
+                                "FlangeWidthBottom": -1.7976931348623157e+308,
+                                "FlangeWidthBottomOffset": -1.7976931348623157e+308,
+                                "FlangeWidthTop": -1.7976931348623157e+308,
+                                "FlangeWidthTopOffset": -1.7976931348623157e+308,
+                                "Height": 0.3400000035762787,
+                                "OuterDiameter": -1.7976931348623157e+308,
+                                "OuterWebThickness": -1.7976931348623157e+308,
+                                "Thickness": -1.7976931348623157e+308,
+                                "WebSpacing": -1.7976931348623157e+308,
+                                "WebThickness": 0.04666199907660484,
+                                "Width": -1.7976931348623157e+308,
+                                "WebOrientation": 0
+                            },
+                            "SectionGeneral": {
+                                "Comp": 0,
+                                "Area": 0.021878398667969867,
+                                "Ix": 1.3381191161204692e-05,
+                                "Iy": 0.00025371632873104333,
+                                "Iz": 6.430988090768777e-05,
+                                "Iyz": -6.939968448232635e-05,
+                                "Wxmin": 0.0002690988959187691,
+                                "Wymin": 0.0011986703438608796,
+                                "Wzmin": 0.00040756255058291074,
+                                "Shary": 0.005165838601880874,
+                                "Sharz": 0.011326118428701343,
+                                "Shceny": -0.028856560227306996,
+                                "Shcenz": -0.10992523515184227,
+                                "Sy": 0.0010452752345381372,
+                                "Sz": 0.00045837372188802883,
+                                "Wpy": 0.0,
+                                "Wpz": 0.0,
+                                "Fabr": 0
+                            }
+                        }
+                    ],
+                    "FiniteElements": [
+                        5597,
+                        5598,
+                        5599,
+                        5600
+                    ]
+                }
+            ],
+            "Connections": [
+                {
+                    "Id": 0,
+                    "Name": "Connection1",
+                    "Type": 0,
+                    "FiniteElementNodes": [
+                        2961,
+                        5844,
+                        5845,
+                        5846,
+                        5847
+                    ],
+                    "FiniteElementNodeTransformations": [
+                        {
+                            "NodeNumber": 2961,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -1.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -0.0
+                            ]
+                        },
+                        {
+                            "NodeNumber": 5844,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -1.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -0.0
+                            ]
+                        },
+                        {
+                            "NodeNumber": 5845,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -1.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -0.0
+                            ]
+                        },
+                        {
+                            "NodeNumber": 5846,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -1.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -0.0
+                            ]
+                        },
+                        {
+                            "NodeNumber": 5847,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -1.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -0.0
+                            ]
+                        }
+                    ],
+                    "Entities": [
+                        0,
+                        1,
+                        4
+                    ],
+                    "EntityTypes": [
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "Id": 1,
+                    "Name": "Connection2",
+                    "Type": 0,
+                    "FiniteElementNodes": [
+                        2980,
+                        5848,
+                        5849,
+                        5850,
+                        5851
+                    ],
+                    "FiniteElementNodeTransformations": [
+                        {
+                            "NodeNumber": 2980,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -1.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -0.0
+                            ]
+                        },
+                        {
+                            "NodeNumber": 5848,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -1.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -0.0
+                            ]
+                        },
+                        {
+                            "NodeNumber": 5849,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -1.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -0.0
+                            ]
+                        },
+                        {
+                            "NodeNumber": 5850,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -1.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -0.0
+                            ]
+                        },
+                        {
+                            "NodeNumber": 5851,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -1.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -0.0
+                            ]
+                        }
+                    ],
+                    "Entities": [
+                        1,
+                        2,
+                        5
+                    ],
+                    "EntityTypes": [
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "Id": 2,
+                    "Name": "Connection3",
+                    "Type": 0,
+                    "FiniteElementNodes": [
+                        3076,
+                        5852,
+                        5853,
+                        5854,
+                        5855
+                    ],
+                    "FiniteElementNodeTransformations": [
+                        {
+                            "NodeNumber": 3076,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -1.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -0.0
+                            ]
+                        },
+                        {
+                            "NodeNumber": 5852,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -1.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -0.0
+                            ]
+                        },
+                        {
+                            "NodeNumber": 5853,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -1.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -0.0
+                            ]
+                        },
+                        {
+                            "NodeNumber": 5854,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -1.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -0.0
+                            ]
+                        },
+                        {
+                            "NodeNumber": 5855,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -1.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -0.0
+                            ]
+                        }
+                    ],
+                    "Entities": [
+                        2,
+                        3,
+                        6
+                    ],
+                    "EntityTypes": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ],
+            "SimplifiedCheck": false
+        },
+        {
+            "Id": 2,
+            "Name": "panel(Pl192, Pl193, 4)_to_(Pl192, Pl193, 1)",
+            "Type": 1,
+            "Plates": [
+                {
+                    "Id": 0,
+                    "Name": "Plate(Pl192, Pl193, 4)",
+                    "Type": 0,
+                    "PDir": 0.0,
+                    "Material": {
+                        "E": 210000003072.0,
+                        "G": 80769231210.1198,
+                        "fy": 355000000.0,
+                        "GammaM": 1.15,
+                        "PoissonRatio": 0.30000001192092896
+                    },
+                    "Geometry": {
+                        "Thickness": 0.03249999973922968,
+                        "Length": 4.0,
+                        "Width": 1.75
+                    },
+                    "FiniteElements": [
+                        21161,
+                        21162,
+                        21163,
+                        21164,
+                        25419,
+                        25420,
+                        25421,
+                        25422
+                    ]
+                },
+                {
+                    "Id": 1,
+                    "Name": "Plate(Pl192, Pl193, 3)",
+                    "Type": 0,
+                    "PDir": 0.0,
+                    "Material": {
+                        "E": 210000003072.0,
+                        "G": 80769231210.1198,
+                        "fy": 355000000.0,
+                        "GammaM": 1.15,
+                        "PoissonRatio": 0.30000001192092896
+                    },
+                    "Geometry": {
+                        "Thickness": 0.03249999973922968,
+                        "Length": 4.000000000000147,
+                        "Width": 1.7499988751151863
+                    },
+                    "FiniteElements": [
+                        21157,
+                        21158,
+                        21159,
+                        21160,
+                        25415,
+                        25416,
+                        25417,
+                        25418
+                    ]
+                },
+                {
+                    "Id": 2,
+                    "Name": "Plate(Pl192, Pl193, 2)",
+                    "Type": 0,
+                    "PDir": 0.0,
+                    "Material": {
+                        "E": 210000003072.0,
+                        "G": 80769231210.1198,
+                        "fy": 355000000.0,
+                        "GammaM": 1.15,
+                        "PoissonRatio": 0.30000001192092896
+                    },
+                    "Geometry": {
+                        "Thickness": 0.03249999973922968,
+                        "Length": 4.000000000000147,
+                        "Width": 1.7500011248848149
+                    },
+                    "FiniteElements": [
+                        21153,
+                        21154,
+                        21155,
+                        21156,
+                        25411,
+                        25412,
+                        25413,
+                        25414
+                    ]
+                },
+                {
+                    "Id": 3,
+                    "Name": "Plate(Pl192, Pl193, 1)",
+                    "Type": 0,
+                    "PDir": 0.0,
+                    "Material": {
+                        "E": 210000003072.0,
+                        "G": 80769231210.1198,
+                        "fy": 355000000.0,
+                        "GammaM": 1.15,
+                        "PoissonRatio": 0.30000001192092896
+                    },
+                    "Geometry": {
+                        "Thickness": 0.03249999973922968,
+                        "Length": 4.0,
+                        "Width": 1.7499966621398926
+                    },
+                    "FiniteElements": [
+                        21149,
+                        21150,
+                        21151,
+                        21152,
+                        25407,
+                        25408,
+                        25409,
+                        25410
+                    ]
+                }
+            ],
+            "Stiffeners": [
+                {
+                    "Id": 4,
+                    "Name": "Stiffener(Pl192, Pl193, 4)",
+                    "Type": 1,
+                    "StiffenerType": 0,
+                    "StiffenerFunction": 0,
+                    "StiffenerConnection": 1,
+                    "SupportAtFirstCrossSection": 0,
+                    "SupportAtSecondCrossSection": 0,
+                    "Material": {
+                        "E": 210000003072.0,
+                        "G": 80769231210.1198,
+                        "fy": 355000000.0,
+                        "GammaM": 1.15,
+                        "PoissonRatio": 0.30000001192092896
+                    },
+                    "StiffenerSections": [
+                        {
+                            "ConnectionNodeId": 5847,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 1,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780498467724328e-12,
+                                        "Z": -0.0
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.25070029497119284,
+                                        "Y": -0.035119649324325646,
+                                        "Z": 4.672346537448746e-11
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "ConnectionNodeId": 5918,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 1,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780498467724328e-12,
+                                        "Z": -0.0
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.25070029497119284,
+                                        "Y": -0.035119649324325646,
+                                        "Z": 4.672346537448746e-11
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "ConnectionNodeId": 5919,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 1,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780498467724328e-12,
+                                        "Z": -0.0
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.25070029497119284,
+                                        "Y": -0.035119649324325646,
+                                        "Z": 4.672346537448746e-11
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "ConnectionNodeId": 5920,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 1,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780498467724328e-12,
+                                        "Z": -0.0
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.25070029497119284,
+                                        "Y": -0.035119649324325646,
+                                        "Z": 4.672346537448746e-11
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "ConnectionNodeId": 5921,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 1,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780498467724328e-12,
+                                        "Z": -0.0
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.25070029497119284,
+                                        "Y": -0.035119649324325646,
+                                        "Z": 4.672346537448746e-11
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "Sections": [
+                        {
+                            "SectionId": 1,
+                            "SectionName": "BSRAbulb400x16x58x18x18x4_Lump3_333",
+                            "SectionType": 7,
+                            "SectionParameters": {
+                                "FilletRadius": 0.0,
+                                "FilletRadiusInner": 0.0,
+                                "FlangeThickness": 0.043936651200056076,
+                                "FlangeThicknessBottom": -1.7976931348623157e+308,
+                                "FlangeThicknessTop": -1.7976931348623157e+308,
+                                "FlangeWidth": 0.24664199352264404,
+                                "FlangeWidthBottom": -1.7976931348623157e+308,
+                                "FlangeWidthBottomOffset": -1.7976931348623157e+308,
+                                "FlangeWidthTop": -1.7976931348623157e+308,
+                                "FlangeWidthTopOffset": -1.7976931348623157e+308,
+                                "Height": 0.4000000059604645,
+                                "OuterDiameter": -1.7976931348623157e+308,
+                                "OuterWebThickness": -1.7976931348623157e+308,
+                                "Thickness": -1.7976931348623157e+308,
+                                "WebSpacing": -1.7976931348623157e+308,
+                                "WebThickness": 0.053328000009059906,
+                                "Width": -1.7976931348623157e+308,
+                                "WebOrientation": 0
+                            },
+                            "SectionGeneral": {
+                                "Comp": 0,
+                                "Area": 0.02982476982657986,
+                                "Ix": 2.4232536210712318e-05,
+                                "Iy": 0.0004783232694850034,
+                                "Iz": 0.00012389109545211485,
+                                "Iyz": -0.00013337141186304364,
+                                "Wxmin": 0.00042056499832889113,
+                                "Wymin": 0.0019079485995743346,
+                                "Wzmin": 0.000670194769898683,
+                                "Shary": 0.007250900929730723,
+                                "Sharz": 0.015220952401237072,
+                                "Shceny": -0.035119649322375074,
+                                "Shcenz": -0.12733138917244646,
+                                "Sy": 0.001675849358635185,
+                                "Sz": 0.0007507149663779193,
+                                "Wpy": 0.0,
+                                "Wpz": 0.0,
+                                "Fabr": 0
+                            }
+                        }
+                    ],
+                    "FiniteElements": [
+                        5668,
+                        5669,
+                        5670,
+                        5671
+                    ]
+                },
+                {
+                    "Id": 5,
+                    "Name": "Stiffener(Pl192, Pl193, 3)",
+                    "Type": 1,
+                    "StiffenerType": 0,
+                    "StiffenerFunction": 0,
+                    "StiffenerConnection": 1,
+                    "SupportAtFirstCrossSection": 0,
+                    "SupportAtSecondCrossSection": 0,
+                    "Material": {
+                        "E": 210000003072.0,
+                        "G": 80769231210.1198,
+                        "fy": 355000000.0,
+                        "GammaM": 1.15,
+                        "PoissonRatio": 0.30000001192092896
+                    },
+                    "StiffenerSections": [
+                        {
+                            "ConnectionNodeId": 5851,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 2,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780599883240355e-12,
+                                        "Z": -4.233867682566646e-18
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.25070029497119284,
+                                        "Y": -0.035119649324320365,
+                                        "Z": 1.936833152590607e-08
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "ConnectionNodeId": 5922,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 2,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780599883240355e-12,
+                                        "Z": -4.233867682566646e-18
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.25070029497119284,
+                                        "Y": -0.035119649324320365,
+                                        "Z": 1.936833152590607e-08
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "ConnectionNodeId": 5923,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 2,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780599883240355e-12,
+                                        "Z": -4.233867682566646e-18
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.25070029497119284,
+                                        "Y": -0.035119649324320365,
+                                        "Z": 1.936833152590607e-08
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "ConnectionNodeId": 5924,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 2,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780599883240355e-12,
+                                        "Z": -4.233867682566646e-18
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.25070029497119284,
+                                        "Y": -0.035119649324320365,
+                                        "Z": 1.936833152590607e-08
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "ConnectionNodeId": 5925,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 2,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780599883240355e-12,
+                                        "Z": -4.233867682566646e-18
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.25070029497119284,
+                                        "Y": -0.035119649324320365,
+                                        "Z": 1.936833152590607e-08
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "Sections": [
+                        {
+                            "SectionId": 2,
+                            "SectionName": "BSRAbulb400x16x58x18x18x4_Lump3_333",
+                            "SectionType": 7,
+                            "SectionParameters": {
+                                "FilletRadius": 0.0,
+                                "FilletRadiusInner": 0.0,
+                                "FlangeThickness": 0.043936651200056076,
+                                "FlangeThicknessBottom": -1.7976931348623157e+308,
+                                "FlangeThicknessTop": -1.7976931348623157e+308,
+                                "FlangeWidth": 0.24664199352264404,
+                                "FlangeWidthBottom": -1.7976931348623157e+308,
+                                "FlangeWidthBottomOffset": -1.7976931348623157e+308,
+                                "FlangeWidthTop": -1.7976931348623157e+308,
+                                "FlangeWidthTopOffset": -1.7976931348623157e+308,
+                                "Height": 0.4000000059604645,
+                                "OuterDiameter": -1.7976931348623157e+308,
+                                "OuterWebThickness": -1.7976931348623157e+308,
+                                "Thickness": -1.7976931348623157e+308,
+                                "WebSpacing": -1.7976931348623157e+308,
+                                "WebThickness": 0.053328000009059906,
+                                "Width": -1.7976931348623157e+308,
+                                "WebOrientation": 0
+                            },
+                            "SectionGeneral": {
+                                "Comp": 0,
+                                "Area": 0.02982476982657986,
+                                "Ix": 2.4232536210712318e-05,
+                                "Iy": 0.0004783232694850034,
+                                "Iz": 0.00012389109545211485,
+                                "Iyz": -0.00013337141186304364,
+                                "Wxmin": 0.00042056499832889113,
+                                "Wymin": 0.0019079485995743346,
+                                "Wzmin": 0.000670194769898683,
+                                "Shary": 0.007250900929730723,
+                                "Sharz": 0.015220952401237072,
+                                "Shceny": -0.035119649322375074,
+                                "Shcenz": -0.12733138917244646,
+                                "Sy": 0.001675849358635185,
+                                "Sz": 0.0007507149663779193,
+                                "Wpy": 0.0,
+                                "Wpz": 0.0,
+                                "Fabr": 0
+                            }
+                        }
+                    ],
+                    "FiniteElements": [
+                        5672,
+                        5673,
+                        5674,
+                        5675
+                    ]
+                },
+                {
+                    "Id": 6,
+                    "Name": "Stiffener(Pl192, Pl193, 2)",
+                    "Type": 1,
+                    "StiffenerType": 0,
+                    "StiffenerFunction": 0,
+                    "StiffenerConnection": 1,
+                    "SupportAtFirstCrossSection": 0,
+                    "SupportAtSecondCrossSection": 0,
+                    "Material": {
+                        "E": 210000003072.0,
+                        "G": 80769231210.1198,
+                        "fy": 355000000.0,
+                        "GammaM": 1.15,
+                        "PoissonRatio": 0.30000001192092896
+                    },
+                    "StiffenerSections": [
+                        {
+                            "ConnectionNodeId": 5855,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 3,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780498467724328e-12,
+                                        "Z": -0.0
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.25070029497119284,
+                                        "Y": -0.035119649324325646,
+                                        "Z": 4.672346537448746e-11
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "ConnectionNodeId": 5926,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 3,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780498467724328e-12,
+                                        "Z": -0.0
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.25070029497119284,
+                                        "Y": -0.035119649324325646,
+                                        "Z": 4.672346537448746e-11
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "ConnectionNodeId": 5927,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 3,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780498467724328e-12,
+                                        "Z": -0.0
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.25070029497119284,
+                                        "Y": -0.035119649324325646,
+                                        "Z": 4.672346537448746e-11
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "ConnectionNodeId": 5928,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 3,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780498467724328e-12,
+                                        "Z": -0.0
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.25070029497119284,
+                                        "Y": -0.035119649324325646,
+                                        "Z": 4.672346537448746e-11
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "ConnectionNodeId": 5929,
+                            "ConnectedSections": [
+                                {
+                                    "SectionId": 3,
+                                    "Orientation": {
+                                        "X": 1.0,
+                                        "Y": 7.780498467724328e-12,
+                                        "Z": -0.0
+                                    },
+                                    "Eccentricity": {
+                                        "X": -0.25070029497119284,
+                                        "Y": -0.035119649324325646,
+                                        "Z": 4.672346537448746e-11
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "Sections": [
+                        {
+                            "SectionId": 3,
+                            "SectionName": "BSRAbulb400x16x58x18x18x4_Lump3_333",
+                            "SectionType": 7,
+                            "SectionParameters": {
+                                "FilletRadius": 0.0,
+                                "FilletRadiusInner": 0.0,
+                                "FlangeThickness": 0.043936651200056076,
+                                "FlangeThicknessBottom": -1.7976931348623157e+308,
+                                "FlangeThicknessTop": -1.7976931348623157e+308,
+                                "FlangeWidth": 0.24664199352264404,
+                                "FlangeWidthBottom": -1.7976931348623157e+308,
+                                "FlangeWidthBottomOffset": -1.7976931348623157e+308,
+                                "FlangeWidthTop": -1.7976931348623157e+308,
+                                "FlangeWidthTopOffset": -1.7976931348623157e+308,
+                                "Height": 0.4000000059604645,
+                                "OuterDiameter": -1.7976931348623157e+308,
+                                "OuterWebThickness": -1.7976931348623157e+308,
+                                "Thickness": -1.7976931348623157e+308,
+                                "WebSpacing": -1.7976931348623157e+308,
+                                "WebThickness": 0.053328000009059906,
+                                "Width": -1.7976931348623157e+308,
+                                "WebOrientation": 0
+                            },
+                            "SectionGeneral": {
+                                "Comp": 0,
+                                "Area": 0.02982476982657986,
+                                "Ix": 2.4232536210712318e-05,
+                                "Iy": 0.0004783232694850034,
+                                "Iz": 0.00012389109545211485,
+                                "Iyz": -0.00013337141186304364,
+                                "Wxmin": 0.00042056499832889113,
+                                "Wymin": 0.0019079485995743346,
+                                "Wzmin": 0.000670194769898683,
+                                "Shary": 0.007250900929730723,
+                                "Sharz": 0.015220952401237072,
+                                "Shceny": -0.035119649322375074,
+                                "Shcenz": -0.12733138917244646,
+                                "Sy": 0.001675849358635185,
+                                "Sz": 0.0007507149663779193,
+                                "Wpy": 0.0,
+                                "Wpz": 0.0,
+                                "Fabr": 0
+                            }
+                        }
+                    ],
+                    "FiniteElements": [
+                        5676,
+                        5677,
+                        5678,
+                        5679
+                    ]
+                }
+            ],
+            "Connections": [
+                {
+                    "Id": 0,
+                    "Name": "Connection1",
+                    "Type": 0,
+                    "FiniteElementNodes": [
+                        5847,
+                        5918,
+                        5919,
+                        5920,
+                        5921
+                    ],
+                    "FiniteElementNodeTransformations": [
+                        {
+                            "NodeNumber": 5847,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -1.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -0.0
+                            ]
+                        },
+                        {
+                            "NodeNumber": 5918,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -1.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -0.0
+                            ]
+                        },
+                        {
+                            "NodeNumber": 5919,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -1.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -0.0
+                            ]
+                        },
+                        {
+                            "NodeNumber": 5920,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -1.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -0.0
+                            ]
+                        },
+                        {
+                            "NodeNumber": 5921,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -1.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -0.0
+                            ]
+                        }
+                    ],
+                    "Entities": [
+                        0,
+                        1,
+                        4
+                    ],
+                    "EntityTypes": [
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "Id": 1,
+                    "Name": "Connection2",
+                    "Type": 0,
+                    "FiniteElementNodes": [
+                        5851,
+                        5922,
+                        5923,
+                        5924,
+                        5925
+                    ],
+                    "FiniteElementNodeTransformations": [
+                        {
+                            "NodeNumber": 5851,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780599883276744e-12,
+                                1.0,
+                                5.441571623226811e-07,
+                                -0.999999999999852,
+                                7.780599883275592e-12,
+                                0.9999999999998519,
+                                5.441571623226812e-07,
+                                -4.233869153652057e-18
+                            ]
+                        },
+                        {
+                            "NodeNumber": 5922,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780599883235395e-12,
+                                1.0,
+                                5.441569404599202e-07,
+                                -0.999999999999852,
+                                7.780599883234243e-12,
+                                0.9999999999998519,
+                                5.441569404599203e-07,
+                                -4.233867427404185e-18
+                            ]
+                        },
+                        {
+                            "NodeNumber": 5923,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780599883241508e-12,
+                                1.0,
+                                5.441569732541955e-07,
+                                -0.999999999999852,
+                                7.780599883240356e-12,
+                                0.9999999999998519,
+                                5.441569732541956e-07,
+                                -4.233867682566646e-18
+                            ]
+                        },
+                        {
+                            "NodeNumber": 5924,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780599883280528e-12,
+                                1.0,
+                                5.441571826239077e-07,
+                                -0.999999999999852,
+                                7.780599883279376e-12,
+                                0.9999999999998519,
+                                5.441571826239078e-07,
+                                -4.233869311609837e-18
+                            ]
+                        },
+                        {
+                            "NodeNumber": 5925,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780599883280528e-12,
+                                1.0,
+                                5.441571826239077e-07,
+                                -0.999999999999852,
+                                7.780599883279376e-12,
+                                0.9999999999998519,
+                                5.441571826239078e-07,
+                                -4.233869311609837e-18
+                            ]
+                        }
+                    ],
+                    "Entities": [
+                        1,
+                        2,
+                        5
+                    ],
+                    "EntityTypes": [
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "Id": 2,
+                    "Name": "Connection3",
+                    "Type": 0,
+                    "FiniteElementNodes": [
+                        5855,
+                        5926,
+                        5927,
+                        5928,
+                        5929
+                    ],
+                    "FiniteElementNodeTransformations": [
+                        {
+                            "NodeNumber": 5855,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -1.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -0.0
+                            ]
+                        },
+                        {
+                            "NodeNumber": 5926,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -1.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -0.0
+                            ]
+                        },
+                        {
+                            "NodeNumber": 5927,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -1.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -0.0
+                            ]
+                        },
+                        {
+                            "NodeNumber": 5928,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -1.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -0.0
+                            ]
+                        },
+                        {
+                            "NodeNumber": 5929,
+                            "Type": 1,
+                            "T": [
+                                0.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -1.0,
+                                7.780498467724328e-12,
+                                1.0,
+                                0.0,
+                                -0.0
+                            ]
+                        }
+                    ],
+                    "Entities": [
+                        2,
+                        3,
+                        6
+                    ],
+                    "EntityTypes": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ],
+            "SimplifiedCheck": false
+        }
+    ]
+}

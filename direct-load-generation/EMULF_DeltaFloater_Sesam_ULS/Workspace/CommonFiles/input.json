@@ -1,7 +1,0 @@
-{
-  "SestraInputFile": "sestra.inp",
-  "ModelFile": "STR_T1.FEM",
-  "LoadFile": "",
-  "UlsModelFile": "ULS_all.json",
-  "UlsCommandFile": "SesamCore_buckling.jnl",
-}

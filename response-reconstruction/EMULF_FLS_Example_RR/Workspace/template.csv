@@ -1,0 +1,5 @@
+IsSelected;Name;StartTime;EndTime;SimulationLength;NumberOfOccurrences;ResultsFilePath
+True;LC001;20.0;220.0;200.0;1;c:\Users\hakber\source\sesam-time-domain-examples-main2\response-reconstruction\EMULF_FLS_Example_RR\Workspace\LoadCases\LC001\screeningrun1F3.SIN
+True;LC002;20.0;220.0;200.0;1;c:\Users\hakber\source\sesam-time-domain-examples-main2\response-reconstruction\EMULF_FLS_Example_RR\Workspace\LoadCases\LC002\screeningrun1F3.SIN
+True;LC001;20.0;220.0;200.0;1;c:\Users\hakber\source\sesam-time-domain-examples-main2\response-reconstruction\EMULF_FLS_Example_RR\Workspace\LoadCases\LC001\screeningrun1F3.SIN
+True;LC002;20.0;220.0;200.0;1;c:\Users\hakber\source\sesam-time-domain-examples-main2\response-reconstruction\EMULF_FLS_Example_RR\Workspace\LoadCases\LC002\screeningrun1F3.SIN

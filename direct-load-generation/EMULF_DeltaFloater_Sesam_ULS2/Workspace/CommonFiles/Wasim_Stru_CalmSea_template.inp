@@ -1,0 +1,51 @@
+&stru_parameters
+lin_snap = .true.       ! Handle snapshot load transfer according to linear theory       
+wl_pres = 1             ! =1: pressure scaling at waterline intersecting elements       
+                        ! =2: no pressure scaling 
+LUseStruModel = .true.  ! Use structural model
+wl_pres_xmin = -1e+030       
+wl_pres_xmax = 1e+030         
+waveam = -1            
+gripre = 'wasim_snap'    		! Prefix and path for *SnapG1.SIF file
+filpre = '#prefix_stru#CalmSea' ! Prefix and path of L file   
+iseana = #mor_topsel#         
+distol = 50              ! Tolerance in overlapping panel-areas
+angtol = 30              ! Tolerance in panel-orientation (degrees)
+iflgra = 1               ! Include (1) or not include (0) fluctuating gravity
+lform = .false.          ! Write formatted (true) or unformatted (false) L-files
+istatn = 1
+istatic = 1				 ! Option for removing hydrostatic pressure from snapshot and time domain loads, when set to 0
+WriteQuasiStaticS = .true.
+
+!-----------------------------------------------------------------------
+!    Tank information:                 ! Copy inputs from HydroD generated parameters if any tank defined
+!-----------------------------------------------------------------------
+ntnk = 6
+tnknum = 2 3 4 5 6 7
+rhotan = 1025 1025 1025 1025 1025 1025
+naccpt = 6
+accusr = 2 3 4 5 6 7
+accpt =
+-49.075  0.000  -13.410
+24.584  -42.581  -11.520
+24.537  42.500  -11.524
+26.406  0.000  -12.000
+0.862  -30.982  -12.000
+0.862  30.982  -12.000
+nzerpt = 6
+zerusr = 2 3 4 5 6 7
+zeropt =
+-49.075  0.000  -11.820
+24.537  -42.500  -8.029
+24.537  42.500  -8.049
+26.406  0.000  -9.000
+0.862  -30.982  -9.000
+0.862  30.982  -9.000
+
+npoint = 0
+mor_topsel = #mor_topsel#   ! Top level super element number, found by Sesam Wind Manager in the file specified on Global Settings
+!Tstart = #start_stru# ! First Snapshot, should be equal to first time step, i.e. Structural Analysis Time Step from Glob 
+!Tlast = #stop_stru#   ! Last snapshot, should match Simulation Length from Global Settings or from Wave/Wind Design Load
+!DELT = #timestep#           ! Snapshot interval between the first and the last, should match Structural Analysis Time Step fro
+!NSTEP = #nsteps#         	! Number of time steps, automatically decided by Sesam Wind Manager
+/

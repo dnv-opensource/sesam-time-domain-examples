@@ -1,0 +1,14 @@
+COMM  CHCK ANTP MSUM MOLO STIF RTOP LBCK      PILE CSING     SINGM
+CMAS    0.   1.   1.   0.   0.   0.   0.        0.
+COMM                 WCOR       THCK
+ELOP                   1.
+COMM  ITYP
+ITOP #s#.
+COMM  PREFIX
+INAM #f#
+LNAM #l#
+COMM  PREFIX FORMAT
+RNAM #r# #b#
+COMM  SEL1 SEL2 SEL3 SEL4 SEL5 SEL6 SEL7 SEL8
+RSEL    0.   0.  -1.  -1.   0.   0.   0.   0.
+Z

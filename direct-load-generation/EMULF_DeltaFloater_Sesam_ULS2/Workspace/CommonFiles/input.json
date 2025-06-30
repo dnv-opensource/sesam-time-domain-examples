@@ -1,0 +1,7 @@
+{
+  "SestraInputFile": "sestra.inp",
+  "ModelFile": "STR_T1.FEM",
+  "LoadFile": "",
+  "UlsModelFile": "cc_buckl_small.json",
+  "UlsCommandFile": "SesamCore_buckling.jnl",
+}

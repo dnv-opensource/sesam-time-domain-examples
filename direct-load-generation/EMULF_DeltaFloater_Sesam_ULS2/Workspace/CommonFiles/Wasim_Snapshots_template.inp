@@ -1,0 +1,11 @@
+&snapshot_data
+! Wasim Snapshots parameters:
+file = 'wasim_solve.inp' 	! Automatically decided by Sesam Wind Manager            
+prefix = 'Wasim_snap'    	! Parameter for snapshot file name, automatically decided by Sesam Wind Manager            
+Tstart = #start_stru# 		! First snapshot, should be equal to first time step, i.e. Structural Analysis Time Step from Global Settings         
+Tlast = #stop_stru# 		! Last snapshot, should match Simulation Length from Global Settings or from Wave/Wind Design Load Case (when locally defined)               
+DELT = #timestep#           ! Snapshot interval between the first and the last, should match Structural Analysis Time Step from Global Settings      
+NSTEP = #nsteps#          	! Number of time steps, automatically decided by Sesam Wind Manager     
+sc_len = 1               	! Length scaling factor 
+sc_mas = 1               	! Mass scaling factor
+/

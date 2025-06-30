@@ -1,0 +1,39 @@
+HEAD
+COMM    Created by: HydroD  V4.10-01  13-Oct-2017
+COMM  CHCK ANTP MSUM MOLO STIF RTOP LBCK      PILE CSING     SIGM     
+CMAS    0.   1.   1.                            0.                    
+COMM                 WCOR
+ELOP                   1.
+COMM  ITYP
+ITOP  1
+COMM  PREFIX
+INAM  #prefix#    
+COMM  PREFIX FORMAT
+LNAM  #prefix#                             UNFORMATTED
+COMM  PREFIX FORMAT
+RNAM  #prefix#            STREAM           NORSAM
+COMM  SEL1 SEL2 SEL3 SEL4 SEL5 SEL6 SEL7 SEL8
+RSEL    1.   0.   1.   1.   0.   0.   1.   0.
+COMM 
+MDAP       0.464132             0.003408
+COMM  RTRA
+RETR    3.
+COMM  CALTYP                                                             H        
+FRSP    4.                                                               0.0500
+COMM  SELTY
+IDTY  1
+COMM  IMAS
+DYMA    1.
+SOLV                   1.
+DLOA
+DREA
+COMM Combine L#-files
+MULL  1.                     #prefix_struTotal#
+MULL  2.                     #prefix_struCalmSea#
+LOHC    1.        -1        1.        0.        1.        0.
+                            3.       1.1       2.1       
+TOUT    1.           2.       #start_stru##timestep##stop_stru#
+HIST 1.   1.        2.        2.        1.        1.0       0.0       1.0
+          0.0       0.0       0.0       
+COMM The modified safety load factors are found in the S#-files
+Z
